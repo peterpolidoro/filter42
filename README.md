@@ -1,6 +1,6 @@
 #filter42
 
-Repository containing the filter design program for the uaf42
+Repository containing the filter design program for the UAF42
 universal active filter.
 
 Repository Maintainer:
@@ -13,7 +13,7 @@ License:
 
 ##Ubuntu
 
-###Install Wine
+###Install DOSBox
 
 ```shell
 sudo apt-get install dosbox
