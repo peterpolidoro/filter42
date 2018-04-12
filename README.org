@@ -1,0 +1,24 @@
+#+TITLE: filter42
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peterpolidoro@gmail.com
+
+* Repository Information
+  - Author :: Peter Polidoro
+  - License :: BSD
+
+  Repository containing the filter design program for the UAF42
+  universal active filter.
+
+* Linux Install
+
+** Install DOSBox
+
+   #+BEGIN_SRC sh
+sudo apt-get install dosbox
+   #+END_SRC
+
+** Run Filter Design Program
+
+   #+BEGIN_SRC sh
+dosbox FILTER42.exe
+   #+END_SRC
