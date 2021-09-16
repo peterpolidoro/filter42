@@ -1,6 +1,6 @@
 #+TITLE: filter42
 #+AUTHOR: Peter Polidoro
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 
 * Repository Information
   - Author :: Peter Polidoro
