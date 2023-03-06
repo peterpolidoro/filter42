@@ -6,19 +6,30 @@
   - Author :: Peter Polidoro
   - License :: BSD
 
-  Repository containing the filter design program for the UAF42
-  universal active filter.
+    Repository containing the filter design program for the UAF42
+    universal active filter.
 
 * Linux Install
 
 ** Install DOSBox
 
-   #+BEGIN_SRC sh
+*** Debian
+
+#+BEGIN_SRC sh
 sudo apt-get install dosbox
-   #+END_SRC
+#+END_SRC
+
 
 ** Run Filter Design Program
 
-   #+BEGIN_SRC sh
+*** Debian
+
+#+BEGIN_SRC sh
 dosbox FILTER42.exe
-   #+END_SRC
+#+END_SRC
+
+*** Guix
+
+#+BEGIN_SRC sh
+guix shell dosbox -- sh -c "dosbox FILTER42.exe"
+#+END_SRC
